@@ -18,7 +18,8 @@ end
 
 def add_a_key_value_pair
   olympic_hash = create_olympics_hash
-  olympic_hash.store(:Atlanta, "1996")
+  # olympic_hash.store(:Atlanta, "1996")
+  olympic_hash[:Atlanta] = "1996"
   return olympic_hash
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
