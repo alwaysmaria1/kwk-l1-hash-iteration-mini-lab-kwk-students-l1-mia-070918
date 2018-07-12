@@ -21,7 +21,6 @@ def add_a_key_value_pair(create_olympics_hash)
   # return create_olympics_hash
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
-return add_a_key_value_pair(create_olympics_hash)
 
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
