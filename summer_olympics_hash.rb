@@ -1,7 +1,20 @@
+def create_oly
+  place=[:Sydney, "Athens","Beijing","London"]
+  time=[2000,2004,2008,2012]
+  create_olympics_hash={}
+  counter=0 
+  while counter < time.length 
+    create_olympics_hash[place[counter]]=time[counter]
+    counter +=1 
+  end
+  return create_olympics_hash
+end 
 
-def create_olympics_hash
+ puts create_olympics_hash
+ 
+  
+  
   # Implement this method so that it returns a hash with the data provided on README.md
-end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
