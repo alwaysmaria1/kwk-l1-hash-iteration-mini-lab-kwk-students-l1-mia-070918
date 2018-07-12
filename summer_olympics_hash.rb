@@ -1,6 +1,6 @@
 def create_olympics_hash
-  place=[:Sydney, "Athens","Beijing","London"]
-  time=[2000,2004,2008,2012]
+  place=[:Sydney, :Athens,:Beijing,:London]
+  time=["2000","2004","2008","2012"]
   create_olympics_hash={}
   counter=0 
   while counter < time.length 
